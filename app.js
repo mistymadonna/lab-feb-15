@@ -23,7 +23,7 @@ function multiply(num1, num2) {
   //console.log('the product of ' + num1 + ' and ' + num2 + ' is ' + multiplies)
 
   pTagTwo.textContent = 'the answer is ' + multiplies + ' the product of ' + num1 + ' and ' + num2 + ' is ' + multiplies;
-return multiplies;
+  return multiplies;
 }
 
 var pTagThree = document.getElementById('ans-three')
@@ -48,8 +48,8 @@ function sumArray(array1) {
     //    console.table(array1);
     //console.log(array1 + ' was passed in as an array of numbers, and their sum is ' + totalSum);
     pTagFour.textContent = array1 + ' was passed in as an array of numbers, and their sum is ' + totalSum;
-}
-return totalSum;
+  }
+  return totalSum;
 };
 
 var pTagFive = document.getElementById('ans-five')
