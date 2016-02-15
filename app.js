@@ -7,8 +7,8 @@ function sum(num1, num2) {
   //var summation = sum(4,7)
 
 
-  //  console.log('the answer is ' + summation)
-  //  console.log('the sum of ' + num1 + ' and ' + num2 + ' is ' + summation)
+  //  console.log('The answer is ' + summation)
+  //  console.log('The sum of ' + num1 + ' and ' + num2 + ' is ' + summation)
   pTagOne.textContent = 'the answer is ' + summation + 'the sum of ' + num1 + ' and ' + num2 + ' is ' + summation;
   return summation;
 }
@@ -19,8 +19,8 @@ var pTagTwo = document.getElementById('ans-two')
 function multiply(num1, num2) {
 
   var multiplies = num1 * num2;
-  //console.log('the answer is ' + multiplies)
-  //console.log('the product of ' + num1 + ' and ' + num2 + ' is ' + multiplies)
+  //console.log('The answer is ' + multiplies)
+  //console.log('The product of ' + num1 + ' and ' + num2 + ' is ' + multiplies)
 
   pTagTwo.textContent = 'the answer is ' + multiplies + ' the product of ' + num1 + ' and ' + num2 + ' is ' + multiplies;
   return multiplies;
