@@ -49,7 +49,7 @@ function sumArray(array1) {
 
 
 function multiplyArray(array2) {
-  var arrayProduct = 0;
+  var arrayProduct = 1;
   for (var i = 0; i < array2.length; i++) {
     arrayProduct += array2[i];
     console.table(array2);
