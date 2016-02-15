@@ -9,9 +9,7 @@ function sum(num1, num2) {
 
   //  console.log('the answer is ' + summation)
   //  console.log('the sum of ' + num1 + ' and ' + num2 + ' is ' + summation)
-  pTagOne.textContent = the answer is summation + the sum of ' + num1 + '
-  and ' + num2 + '
-  is ' + summation)'
+  pTagOne.textContent = 'the answer is ' + summation + 'the sum of ' + num1 + ' and ' + num2 + ' is ' + summation;
   return summation;
 }
 
@@ -24,7 +22,7 @@ function multiply(num1, num2) {
   //console.log('the answer is ' + multiplies)
   //console.log('the product of ' + num1 + ' and ' + num2 + ' is ' + multiplies)
 
-  pTagTwo.textContent = the answer is ' + multiplies + the product of ' + num1 + ' and ' + num2 + ' is ' + multiplies)
+  pTagTwo.textContent = 'the answer is ' + multiplies + ' the product of ' + num1 + ' and ' + num2 + ' is ' + multiplies;
 return multiplies;
 }
 
@@ -49,7 +47,7 @@ function sumArray(array1) {
     totalSum += array1[i];
     //    console.table(array1);
     //console.log(array1 + ' was passed in as an array of numbers, and their sum is ' + totalSum);
-    pTagFour.textContent = array1 + ' was passed in as an array of numbers, and their sum is ' + totalSum)
+    pTagFour.textContent = array1 + ' was passed in as an array of numbers, and their sum is ' + totalSum;
 }
 return totalSum;
 };
