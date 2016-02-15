@@ -37,11 +37,12 @@ function sumAndMultiply(num1, num2, num3) {
   return [prob3sum, prob3multiply];
 }
 
-
 function sumArray(array1) {
   var totalSum = 0;
-  for (var i = 0; i < array1.length; totalSum += array1[i++]);
+  for (var i = 0; i < array1.length; i++) {
+    totalSum += array1[i];
     console.table(array1);
     console.log(array1 + ' was passed in as an array of numbers, and their sum is ' + totalSum);
+  }
   return totalSum;
 };
