@@ -4,12 +4,9 @@ function sum(num1, num2) {
 
   var summation = num1 + num2;
 
-  //var summation = sum(4,7)
-
-
-  //  console.log('The answer is ' + summation)
-  //  console.log('The sum of ' + num1 + ' and ' + num2 + ' is ' + summation)
-  pTagOne.textContent = 'the answer is ' + summation + 'the sum of ' + num1 + ' and ' + num2 + ' is ' + summation;
+   //  console.log('The answer is ' + summation + '.')
+  //  console.log('The sum of ' + num1 + ' and ' + num2 + ' is ' + summation + '.')
+  pTagOne.textContent = 'the answer is ' + summation + 'the sum of ' + num1 + ' and ' + num2 + ' is ' + summation + '.';
   return summation;
 }
 
@@ -19,10 +16,10 @@ var pTagTwo = document.getElementById('ans-two')
 function multiply(num1, num2) {
 
   var multiplies = num1 * num2;
-  //console.log('The answer is ' + multiplies)
-  //console.log('The product of ' + num1 + ' and ' + num2 + ' is ' + multiplies)
+  //console.log('The answer is ' + multiplies + '.')
+  //console.log('The product of ' + num1 + ' and ' + num2 + ' is ' + multiplies + '.')
 
-  pTagTwo.textContent = 'the answer is ' + multiplies + ' the product of ' + num1 + ' and ' + num2 + ' is ' + multiplies;
+  pTagTwo.textContent = 'the answer is ' + multiplies + ' the product of ' + num1 + ' and ' + num2 + ' is ' + multiplies + '.';
   return multiplies;
 }
 
@@ -30,11 +27,11 @@ var pTagThree = document.getElementById('ans-three')
 
 function sumAndMultiply(num1, num2, num3) {
   var prob3sum = sum(num1, num2) + num3
-  var prob3multiply = (multiply(num1, num2) * num3)
-    //  console.log('The sum of ' + num1 + ' and ' + num2 + ' and ' + num3 + ' equals ' + prob3sum);
-    //  console.log('The product of ' + num1 + ' and ' + num2 + ' and ' + num3 + ' equals ' + prob3multiply);
+  var prob3multiply = multiply(num1, num2) * num3
+    //  console.log(num1 + ' and ' + num2 + ' and ' + num3 + ' sum to ' + prob3sum + '.');
+    //  console.log('The numbers ' + num1 + ' and ' + num2 + ' and ' + num3 + ' have a product of ' + prob3multiply) + '.';
 
-  pTagThree.textContent = 'The sum of ' + num1 + ' and ' + num2 + ' and ' + num3 + ' equals ' + prob3sum + totalSum + '. The product of ' + num1 + ' and ' + num2 + ' and ' + num3 + ' equals ' + prob3multiply
+  pTagThree.textContent = num1 + ' and ' + num2 + ' and ' + num3 + ' sum to ' + prob3sum + totalSum + '. The numbers ' + num1 + ' and ' + num2 + ' and ' + num3 + ' have a product of ' + prob3multiply + '.'
   return [prob3sum, prob3multiply];
 }
 
@@ -46,8 +43,8 @@ function sumArray(array1) {
   for (var i = 0; i < array1.length; i++) {
     totalSum += array1[i];
     //    console.table(array1);
-    //console.log(array1 + ' was passed in as an array of numbers, and their sum is ' + totalSum);
-    pTagFour.textContent = array1 + ' was passed in as an array of numbers, and their sum is ' + totalSum;
+    //console.log(array1 + ' was passed in as an array of numbers, and ' + totalSum + ' is their sum.';
+    pTagFour.textContent = array1 + ' was passed in as an array of numbers, and ' + totalSum + ' is their sum.';
   }
   return totalSum;
 };
