@@ -54,10 +54,10 @@ var pTagFive = document.getElementById('ans-five')
 function multiplyArray(array2) {
   var arrayProduct = 1;
   for (var i = 0; i < array2.length; i++) {
-    arrayProduct += array2[i];
-    console.table(array2);
-    //console.log(array2 + ' have a product of ' + arrayProduct);
-    pTagFive.textContent = array2 + ' have a product of ' + arrayProduct;
+    arrayProduct *= array2[i];
+    //console.table(array2);
+    //console.log('The numbers ' + array2 + ' have a product of ' + arrayProduct + '.');
+    pTagFive.textContent = 'The numbers ' + array2 + ' have a product of ' + arrayProduct + '.';
   }
   return arrayProduct;
 };
