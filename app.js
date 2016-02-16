@@ -6,7 +6,7 @@ function sum(num1, num2) {
 
    //  console.log('The answer is ' + summation + '.')
   //  console.log('The sum of ' + num1 + ' and ' + num2 + ' is ' + summation + '.')
-  pTagOne.textContent = 'the answer is ' + summation + 'the sum of ' + num1 + ' and ' + num2 + ' is ' + summation + '.';
+  pTagOne.textContent = 'The answer is ' + summation + 'the sum of ' + num1 + ' and ' + num2 + ' is ' + summation + '.';
   return summation;
 }
 
@@ -19,7 +19,7 @@ function multiply(num1, num2) {
   //console.log('The answer is ' + multiplies + '.')
   //console.log('The product of ' + num1 + ' and ' + num2 + ' is ' + multiplies + '.')
 
-  pTagTwo.textContent = 'the answer is ' + multiplies + ' the product of ' + num1 + ' and ' + num2 + ' is ' + multiplies + '.';
+  pTagTwo.textContent = 'The answer is ' + multiplies + ' the product of ' + num1 + ' and ' + num2 + ' is ' + multiplies + '.';
   return multiplies;
 }
 
